@@ -1,7 +1,5 @@
 'use strict';
 
-const { result } = require('lodash');
-
 const cartForParty = [
   { name: 'beer', amount: 3 },
   { name: 'chips', amount: 1.7 },

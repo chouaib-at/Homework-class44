@@ -49,18 +49,6 @@ function test2() {
   ];
   const result = filterPrivateData(employeeRecords);
 
-  // console.log('expected as object');
-  // console.log(expected);
-  // console.log('expected as string');
-  // console.log(JSON.stringify(expected));
-  // console.log('result as object');
-  // console.log(result);
-  // console.log('result as string');
-  // console.log(JSON.stringify(result));
-  // console.log('comparing two objects always results as false');
-  // console.log(expected === result);
-  // console.log('comparing two string if they are identical it results as true');
-  // console.log(JSON.stringify(result) === JSON.stringify(expected));
   console.assert(JSON.stringify(result) === JSON.stringify(expected));
 }
 

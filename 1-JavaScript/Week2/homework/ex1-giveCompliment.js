@@ -19,13 +19,13 @@ function giveCompliment(name) {
 }
 
 function main() {
-  const myName = 'HackYourFuture';
+  const myName = 'Chouaib';
 
   console.log(giveCompliment(myName));
   console.log(giveCompliment(myName));
   console.log(giveCompliment(myName));
 
-  const yourName = 'Amsterdam';
+  const yourName = 'John';
 
   console.log(giveCompliment(yourName));
   console.log(giveCompliment(yourName));
