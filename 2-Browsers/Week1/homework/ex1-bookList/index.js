@@ -18,7 +18,25 @@ https://hackyourfuture.github.io/example-pages/Browsers/Week1/1-booklist/
 //cspell: enable
 
 function createBookList(books) {
-  // TODO your code goes in here, return the ul element
+  const ul = document.createElement('ul');
+  for (let i = 0; i < books.length; i++) {
+    const li = document.createElement('li');
+    const header = document.createElement('p');
+    const img = document.createElement('img');
+    header.textContent = books[i].title + ' by ' + books[i].author;
+    const src = books[i].title.toLowerCase().replace(/ /g, '_');
+    img.src = './assets/' + src + '.jpg';
+    if (books[i].alreadyRead) {
+      li.style.backgroundColor = 'green';
+    } else {
+      li.style.backgroundColor = 'red';
+    }
+    img.alt = books[i].title;
+    li.appendChild(header);
+    li.appendChild(img);
+    ul.appendChild(li);
+  }
+  return ul;
 }
 
 function main() {
@@ -27,6 +45,7 @@ function main() {
       title: 'The Design of Everyday Things',
       author: 'Don Norman',
       isbn: '978-0465050659',
+      imgSrc: './assets/the_design_of_everyday_things.jpg',
       alreadyRead: false,
     },
     {
