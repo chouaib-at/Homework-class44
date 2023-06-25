@@ -2,7 +2,7 @@ function createBookList(books) {
   const ul = document.createElement('ul');
   for (let i = 0; i < books.length; i++) {
     const li = document.createElement('li');
-    const header = document.createElement('p');
+    const paragraph = document.createElement('p');
     const img = document.createElement('img');
     header.textContent = books[i].title + ' by ' + books[i].author;
     const src = books[i].title.toLowerCase().replace(/ /g, '_');
