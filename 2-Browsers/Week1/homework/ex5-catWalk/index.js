@@ -26,6 +26,7 @@ function catWalk() {
   function roundToNearestTen(number) {
     return Math.floor(number / 10) * 10; // because the width of the screen is
   }
+  
   const imgRef = document.querySelector('img');
   const screenWidth = window.innerWidth;
   const position = imgRef.style.left;
