@@ -4,7 +4,7 @@ function createBookList(books) {
     const li = document.createElement('li');
     const paragraph = document.createElement('p');
     const img = document.createElement('img');
-    paragraph.textContent = ' ${books[i].title} by ${books[i].author}';
+    paragraph.textContent = ` ${books[i].title} by ${books[i].author}`;
     const src = books[i].title.toLowerCase().replace(/ /g, '_');
     img.src = './assets/' + src + '.jpg';
     if (books[i].alreadyRead) {
