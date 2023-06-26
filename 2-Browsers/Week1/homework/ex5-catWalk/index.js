@@ -34,7 +34,7 @@ function catWalk() {
     imgRef.style.left = '0px';
   }
   if (intPosition === roundToNearestTen(screenWidth / 2 - 150)) {
-    // 150 = img width/2
+    // Note: 150 = img width/2
     dancing = true;
     imgRef.src = 'https://c.tenor.com/lpHW7hkRD6MAAAAC/tenor.gif';
     setTimeout(() => {
