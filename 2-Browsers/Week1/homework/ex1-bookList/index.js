@@ -2,9 +2,9 @@ function createBookList(books) {
   const ul = document.createElement('ul');
   for (let i = 0; i < books.length; i++) {
     const li = document.createElement('li');
-    const header = document.createElement('p');
+    const paragraph = document.createElement('p');
     const img = document.createElement('img');
-    header.textContent = books[i].title + ' by ' + books[i].author;
+    paragraph.textContent = ' ${books[i].title} by ${books[i].author}';
     const src = books[i].title.toLowerCase().replace(/ /g, '_');
     img.src = './assets/' + src + '.jpg';
     if (books[i].alreadyRead) {
@@ -13,7 +13,7 @@ function createBookList(books) {
       li.style.backgroundColor = 'red';
     }
     img.alt = books[i].title;
-    li.appendChild(header);
+    li.appendChild(paragraph);
     li.appendChild(img);
     ul.appendChild(li);
   }

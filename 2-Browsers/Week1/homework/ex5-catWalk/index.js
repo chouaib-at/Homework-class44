@@ -26,15 +26,17 @@ function catWalk() {
   function roundToNearestTen(number) {
     return Math.floor(number / 10) * 10; // because the width of the screen is
   }
+
   const imgRef = document.querySelector('img');
   const screenWidth = window.innerWidth;
   const position = imgRef.style.left;
   const intPosition = parseInt(position, 10);
+
   if (!position) {
     imgRef.style.left = '0px';
   }
   if (intPosition === roundToNearestTen(screenWidth / 2 - 150)) {
-    // 150 = img width/2
+    //Note : 150 = img width/2
     dancing = true;
     imgRef.src = 'https://c.tenor.com/lpHW7hkRD6MAAAAC/tenor.gif';
     setTimeout(() => {
@@ -48,6 +50,7 @@ function catWalk() {
     imgRef.style.left = newValue + 'px';
   }
 }
+
 setInterval(() => {
   if (dancing) {
     setTimeout(() => {

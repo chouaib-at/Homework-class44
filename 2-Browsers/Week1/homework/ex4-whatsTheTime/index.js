@@ -3,31 +3,18 @@
 function addCurrentTime() {
   const currentDate = new Date();
 
-  let currentHours = currentDate.getHours();
-  let currentMinutes = currentDate.getMinutes();
-  let currentSeconds = currentDate.getSeconds();
+  const currentTime = currentDate.toLocaleTimeString('nl-NL');
 
-  currentHours = addLeadingZero(currentHours);
-  currentMinutes = addLeadingZero(currentMinutes);
-  currentSeconds = addLeadingZero(currentSeconds);
-
-  function addLeadingZero(value) {
-    if (value < 10) {
-      return '0' + value;
-    }
-    return value;
-  }
-  const time = currentHours + ':' + currentMinutes + ':' + currentSeconds;
   const body = document.querySelector('body');
   let text = document.querySelector('p');
   if (text) {
-    text.textContent = time;
+    text.textContent = currentTime;
   } else {
     text = document.createElement('p');
-    text.textContent = time;
+    text.textContent = currentTime;
     body.appendChild(text);
   }
-  console.log(time);
+  console.log(currentTime);
 }
 
 window.addEventListener('load', () => {
