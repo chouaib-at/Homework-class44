@@ -1,5 +1,4 @@
 'use strict';
-
 const getAnonName = (firstName) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {

@@ -2,9 +2,10 @@ const rollDie = require('../../helpers/pokerDiceRoller');
 
 function rollDice() {
   const dice = [1, 2, 3, 4, 5];
-  const promisesArr = dice.map((n) => {
-    return rollDie(n);
+  const promisesArr = dice.map((roll) => {
+    return rollDie(roll);
   });
+  console.log(promisesArr);
   return Promise.all(promisesArr);
 }
 
@@ -19,3 +20,5 @@ if (process.env.NODE_ENV !== 'test') {
   main();
 }
 module.exports = rollDice;
+
+// reject doesn't stop the Asynchronous operation it just show the error
