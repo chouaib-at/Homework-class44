@@ -1,7 +1,3 @@
-/*
-Full description at:https://github.com/HackYourFuture/Homework/blob/main/3-UsingAPIs/Week2/README.md#exercise-6-using-the-browser-debugger
-*/
-
 'use strict';
 
 async function getData(url) {
