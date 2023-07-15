@@ -9,7 +9,6 @@ async function rollDieUntil(wantedValue) {
   }
   return value;
 }
-console.log('test branch')
 async function main() {
   try {
     const results = await rollDieUntil('ACE');
