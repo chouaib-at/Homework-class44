@@ -2,3 +2,33 @@
 2023-05-17 02:39:39 info: >>> Running Unit Test `ex1-giveCompliment` <<<
 2023-05-17 02:39:39 info: ----------------------------------------------
 2023-05-17 02:39:39 info: Exercise has not yet been modified
+2023-07-23 08:30:16 info: ---------------------------------------
+2023-07-23 08:30:16 info: >>> Running Unit Test `ex1-johnWho` <<<
+2023-07-23 08:30:16 info: ---------------------------------------
+2023-07-23 08:30:21 info: All unit tests passed.
+2023-07-23 08:30:30 info: All steps were completed successfully
+2023-07-23 08:31:31 info: -------------------------------------------------
+2023-07-23 08:31:31 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2023-07-23 08:31:31 info: -------------------------------------------------
+2023-07-23 08:31:35 info: All unit tests passed.
+2023-07-23 08:31:42 info: All steps were completed successfully
+2023-07-23 08:32:24 info: ---------------------------------------
+2023-07-23 08:32:24 info: >>> Running Unit Test `ex3-rollDie` <<<
+2023-07-23 08:32:24 info: ---------------------------------------
+2023-07-23 08:32:28 info: All unit tests passed.
+2023-07-23 08:32:35 info: All steps were completed successfully
+2023-07-23 08:33:43 info: --------------------------------------------
+2023-07-23 08:33:43 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2023-07-23 08:33:43 info: --------------------------------------------
+2023-07-23 08:33:48 info: All unit tests passed.
+2023-07-23 08:33:54 info: All steps were completed successfully
+2023-07-23 08:35:04 info: ----------------------------------------------
+2023-07-23 08:35:04 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2023-07-23 08:35:04 info: ----------------------------------------------
+2023-07-23 08:35:08 info: All unit tests passed.
+2023-07-23 08:35:14 info: All steps were completed successfully
+2023-07-23 08:36:58 info: --------------------------------------------
+2023-07-23 08:36:58 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2023-07-23 08:36:58 info: --------------------------------------------
+2023-07-23 08:37:03 info: All unit tests passed.
+2023-07-23 08:37:09 info: All steps were completed successfully
